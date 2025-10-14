@@ -17,3 +17,52 @@ body{
     position: relative;
     left: 63px;
 }
+.header h2{
+    font-size: 30px;
+    color: #01940b;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.price-input-container{
+    width: 100%;
+}
+.price-input .price-field{
+    display: flex;
+    margin-bottom: 22px;
+}
+.price-field span{
+    margin-right: 10px;
+    margin-top: 6px;
+    font-size: 17px;
+    
+}
+.price-field input{
+    flex: 1;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 9px;
+    text-align: center;
+    background: #d3d0d0;
+    
+}
+.price-field2 span{
+    margin-right: 10px;
+    margin-top: 6px;
+    font-size: 17px;
+}
+.price-field2 input{
+    flex: 1;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 9px;
+    text-align: center;
+    background: #e4e4e4;
+    width: 760px;
+}
+
+.slider{
+    width: 100px;
+    height: 6px;
+    position: relative;
+}
